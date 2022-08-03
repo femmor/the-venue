@@ -36,6 +36,7 @@ const App = () => {
           height: '800px',
         }}
       ></div>
+      <Footer />
     </>
   );
 };
