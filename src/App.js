@@ -1,3 +1,4 @@
+import Featured from './components/featured';
 import Footer from './components/header_footer/Footer';
 import Header from './components/header_footer/Header';
 
@@ -5,13 +6,7 @@ const App = () => {
   return (
     <>
       <Header />
-
-      <div
-        style={{
-          background: 'orange',
-          height: '800px',
-        }}
-      ></div>
+      <Featured />
       <div
         style={{
           background: 'red',
