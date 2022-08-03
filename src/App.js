@@ -5,7 +5,37 @@ const App = () => {
   return (
     <>
       <Header />
-      <Footer />
+
+      <div
+        style={{
+          background: 'orange',
+          height: '800px',
+        }}
+      ></div>
+      <div
+        style={{
+          background: 'red',
+          height: '800px',
+        }}
+      ></div>
+      <div
+        style={{
+          background: 'blue',
+          height: '800px',
+        }}
+      ></div>
+      <div
+        style={{
+          background: 'green',
+          height: '800px',
+        }}
+      ></div>
+      <div
+        style={{
+          background: 'yellow',
+          height: '800px',
+        }}
+      ></div>
     </>
   );
 };
