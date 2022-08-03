@@ -1,5 +1,13 @@
+import Footer from './components/header_footer/Footer';
+import Header from './components/header_footer/Header';
+
 const App = () => {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <Header />
+      <Footer />
+    </>
+  );
 };
 
 export default App;
