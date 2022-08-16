@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Fade, Slide } from 'react-awesome-reveal';
+import ButtonComp from '../../utils/ButtonComp';
 
 const Discount = () => {
   const end = 30;
@@ -42,6 +43,18 @@ const Discount = () => {
               molestiae placeat illum quidem atque labore eum sit architecto
               earum. Sequi doloribus consequuntur sit beatae hic, eveniet odio.
             </p>
+            <ButtonComp
+              text="Purchase Ticket"
+              type="secondary"
+              link="http://www.google.com"
+              size="small"
+              variant="contained"
+              icon
+              style={{
+                backgroundColor: '#FFA800',
+                color: '#fff',
+              }}
+            />
           </div>
         </Slide>
       </div>
